@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/mercadoLivre"
         android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_height="120dp"
         android:layout_marginTop="16dp"
         android:src="@drawable/mercadolivre"
         app:layout_constraintEnd_toEndOf="parent"
@@ -21,7 +21,7 @@
     <ImageView
         android:id="@+id/amazon"
         android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_height="120dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:src="@drawable/amazon"
@@ -32,7 +32,7 @@
     <ImageView
         android:id="@+id/alibaba"
         android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_height="120dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="36dp"
         android:src="@drawable/alibaba"
@@ -55,7 +55,7 @@
     <ImageView
         android:id="@+id/ebay"
         android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_height="120dp"
         android:layout_marginTop="36dp"
         android:src="@drawable/ebay"
         app:layout_constraintEnd_toEndOf="parent"
