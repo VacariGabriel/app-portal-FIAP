@@ -15,10 +15,11 @@ class MainActivity : AppCompatActivity() {
 
         var sh = getSharedPreferences("valores", Context.MODE_PRIVATE)
 
+
+
         mercadoLivre.setOnClickListener {
             var intent = Intent(this, Portal::class.java)
             intent.putExtra("url", "https://www.mercadolivre.com.br/")
-
             startActivity(intent)
         }
 

@@ -48,8 +48,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.814"
+        app:layout_constraintTop_toBottomOf="@+id/alibaba"
+        app:layout_constraintVertical_bias="0.304"
         tools:srcCompat="@drawable/submarino" />
 
     <ImageView
@@ -73,8 +73,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/submarino"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/submarino" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
