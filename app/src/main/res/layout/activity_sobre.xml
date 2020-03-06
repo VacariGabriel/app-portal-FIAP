@@ -47,6 +47,7 @@
         android:layout_width="201dp"
         android:layout_height="364dp"
         android:text="TextView"
+        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/limpa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
